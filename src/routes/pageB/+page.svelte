@@ -71,7 +71,7 @@
       on:click={handleClick}
       class="px-4 py-2 bg-green-500 text-white rounded"
     >
-      {isLoading ? "Loading..." : "Click Me"}
+      {"Click Me"}
     </button>
     <p class={isLoading ? "loading" : "ready"}>
       {isLoading

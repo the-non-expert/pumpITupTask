@@ -17,7 +17,7 @@
       Go to Page B
     </button>
     <p>
-      (There is a 3 second delay function on the second page as soon as it
+      (There is a 5 second delay function on the second page as soon as it
       mounts to simulate a fake intensive server load.)
     </p>
   </div>
