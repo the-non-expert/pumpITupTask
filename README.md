@@ -13,12 +13,14 @@ yet any listener on the button (e.g., on:click).
 
 ## Implementation Details
 
-Step 1: Creating Page A which serves as the home page and adding a navigation button to Page B
+### Step 1: Creating Page A which serves as the home page and adding a navigation button to Page B
 
-Step 2: Setting Up Page B with Event Capture and Fake Compute
-File: src/routes/pageB.svelte
+### Step 2: Setting Up Page B with Event Capture and Fake Compute
+
+**File: src/routes/pageB.svelte**
 
 The logic in pageB.svelte includes:
 
-Capturing click events before the page fully loads.
-Replaying those captured events once the page has fully loaded.
+- Capturing click events before the page fully loads.
+
+- Replaying those captured events once the page has fully loaded.
